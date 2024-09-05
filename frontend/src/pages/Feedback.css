@@ -1,0 +1,84 @@
+.feedback-page {
+    padding: 20px;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.feedback-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.feedback-form textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 100px;
+}
+
+.feedback-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.feedback-form button[type="button"] {
+    background-color: #6c757d;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.feedback-table th, .feedback-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.feedback-table th {
+    background-color: #f4f4f4;
+}
+
+.feedback-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.feedback-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback-table button:hover {
+    opacity: 0.8;
+}

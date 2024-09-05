@@ -1,0 +1,87 @@
+/* src/pages/InternPage.css */
+.intern-page {
+    padding: 20px;
+}
+
+.intern-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.intern-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.date-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.date-inputs label {
+    font-weight: bold;
+}
+
+.date-inputs input {
+    width: 150px; /* Adjust width as needed */
+    padding: 6px;
+    font-size: 14px; /* Smaller font size for date inputs */
+}
+
+.intern-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.intern-form button[type="button"] {
+    background-color: #6c757d;
+}
+
+.intern-filter {
+    margin-bottom: 20px;
+}
+
+.intern-filter h2 {
+    margin-bottom: 10px;
+}
+
+.intern-filter input {
+    margin-right: 10px;
+}
+
+.intern-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.intern-table th, .intern-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.intern-table th {
+    background-color: #f4f4f4;
+}
+
+.intern-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.intern-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.intern-table button:hover {
+    opacity: 0.8;
+}
